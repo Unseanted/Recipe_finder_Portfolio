@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+San');
+
+body {
+  font-family: 'Roboto', sans-serif,'Tangerine', serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family:'Tangerine', serif;
+  font-size: 30px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.intro-section {
+  background: url('pan.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.intro-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.intro-content h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+.intro-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.feature-section, .about-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-section h2, .about-section h2 {
+  font-family: 'Lobster', cursive;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+}
+
+.feature {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 2px;
+}
+
+.feature h3 {
+  font-family: 'Lobster', cursive;
+  margin: 20px 0 10px;
+  font-size: 1.8em;
+}
+
+.feature p {
+  font-size: 1.1em;
+  max-width: 800px;
+}
+
+.team-member {
+  margin: 20px 0;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  font-family: 'Lobster', cursive;
+  font-family: 'Roboto', cursive;
+}
+
+.team-member ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-member ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.team-member ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.team-member ul li a:hover {
+  color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
